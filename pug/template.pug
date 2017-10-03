@@ -2,5 +2,18 @@
 doctype html
 html
   include includes/head.pug
-  h1.title Tiny Movie Review
-  p.test #{name}'s Pug source code!
+  script(src='../../script/login.js')
+  header.header
+    h1.header__h1 Tiny Movie Review
+    p.header__p #{name}'s Pug source code!
+
+  div.div
+    input.div__input(
+      type='text'
+      name='input'
+    )
+    button.div__button(
+      type='button'
+      class='div__button'
+    ) Submit
+    

@@ -4,9 +4,22 @@ $text-color: #CDD7D6;
 $tertiary-color: #B3A394;
 $white: #fff;
 
+body {
+  background: $background-color;
 
-.title {
-  color: $text-color;
-  font-family: Arial, Helvetica, sans-serif;
-  
 }
+
+.header {
+
+  &__h1 {
+    color: $text-color;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  &__p {
+      color: $tertiary-color;
+  }
+}
+
+
+
+

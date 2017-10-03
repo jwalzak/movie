@@ -1,5 +1,10 @@
-.title {
+body {
+  background: #102542; }
+
+.header__h1 {
   color: #CDD7D6;
   font-family: Arial, Helvetica, sans-serif; }
+.header__p {
+  color: #B3A394; }
 
 /*# sourceMappingURL=style.css.map */
