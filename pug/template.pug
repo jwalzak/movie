@@ -8,12 +8,16 @@ html
     p.header__p #{name}'s Pug source code!
 
   div.div
-    input.div__input(
-      type='text'
-      name='input'
+    form.div__form(
+      method='post'
+      action='/'
     )
-    button.div__button(
-      type='button'
-      class='div__button'
-    ) Submit
-    
+      input.div__input(
+        type='text'
+        name='input'
+      )
+      button.div__button(
+        type='submit'
+        class='div__button'
+      ) Submit
+      
